@@ -103,3 +103,4 @@ ENV/
 # my ignores
 *.p
 *.csv
+*.db
