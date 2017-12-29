@@ -1,0 +1,6 @@
+# TO DO
+- determine correct threshold (remove hour long "visit")
+- to threshold delta, not static
+
+- add milliseconds to time stamps for sorting
+- animations working
