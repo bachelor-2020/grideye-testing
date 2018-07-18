@@ -1,0 +1,36 @@
+graph "
+digraph G {
+  graph [overlap=false outputorder=edgesfirst];
+  node [style=filled fillcolor=white];
+  #edge [color=\"#57adf9b8\", arrowsize=0.5];
+  edge [color=\"#c6dbef:#9ecae1:#6baed6:#4292c6:#2171b5:#08519c:#08306b;0.25\", arrowsize=0.5];
+  000 [label=\"⚪⚪⚪\"];
+  001 [label=\"⚪⚪👨\"];
+  010 [label=\"⚪👨⚪\"];
+  011 [label=\"⚪👨👨\"];
+  100 [label=\"👨⚪⚪\"];
+  101 [label=\"👨⚪👨\"];
+  110 [label=\"👨👨⚪\"];
+  111 [label=\"👨👨👨\"];
+   -> 100 [label=\"46.12%\", penwidth=5.0];
+   -> 010 [label=\"14.54%\", penwidth=2.0];
+   -> 001 [label=\"39.35%\", penwidth=4.0];
+   -> 000 [label=\"90.69%\", penwidth=10.0];
+   -> 110 [label=\"0.98%\", penwidth=1.0];
+   -> 101 [label=\"8.33%\", penwidth=1.0];
+   -> 000 [label=\"93.65%\", penwidth=10.0];
+   -> 110 [label=\"3.17%\", penwidth=1.0];
+   -> 011 [label=\"3.17%\", penwidth=1.0];
+   -> 000 [label=\"84.24%\", penwidth=9.0];
+   -> 011 [label=\"2.17%\", penwidth=1.0];
+   -> 101 [label=\"13.59%\", penwidth=2.0];
+   -> 100 [label=\"40.00%\", penwidth=4.0];
+   -> 010 [label=\"60.00%\", penwidth=6.0];
+   -> 010 [label=\"33.33%\", penwidth=4.0];
+   -> 001 [label=\"50.00%\", penwidth=5.0];
+   -> 111 [label=\"16.67%\", penwidth=2.0];
+   -> 100 [label=\"42.86%\", penwidth=5.0];
+   -> 001 [label=\"57.14%\", penwidth=6.0];
+   -> 110 [label=\"100.00%\", penwidth=10.0];
+}" {
+}

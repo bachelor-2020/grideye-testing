@@ -26,7 +26,7 @@ except:
     f.close()
     os._exit(1)
 
-    
+
 while(1):
     #get an 8x8 matrix (2d list)
     data = g.get_temperatures()
@@ -39,13 +39,10 @@ while(1):
     data = map(str,data)
     rowData = time_stamp+data
     rowData = '"'+'","'.join(rowData)+'"\n'
-    f.write(rowData)
-    #put into a data frame, column 1 is time stamp,
+    #write to the csv file
     #column 2:65 is grideye pixel data
-    
-    
-    
-    #.write("%s\n" % data)
+    f.write(rowData)
+    #pause for a tenth of a second
     time.sleep(0.1)
 g.close()
 f.close()

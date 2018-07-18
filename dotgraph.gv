@@ -1,0 +1,35 @@
+
+digraph G {
+  graph [overlap=false outputorder=edgesfirst];
+  node [style=filled fillcolor=white];
+  #edge [color="#57adf9b8", arrowsize=0.5];
+  edge [color="#c6dbef:#9ecae1:#6baed6:#4292c6:#2171b5:#08519c:#08306b;0.25", arrowsize=0.5];
+  000 [label="⚪⚪⚪"];
+  001 [label="⚪⚪👨"];
+  010 [label="⚪👨⚪"];
+  011 [label="⚪👨👨"];
+  100 [label="👨⚪⚪"];
+  101 [label="👨⚪👨"];
+  110 [label="👨👨⚪"];
+  111 [label="👨👨👨"];
+   -> 100 [label="46.37%", penwidth=5.0];
+   -> 010 [label="14.79%", penwidth=2.0];
+   -> 001 [label="38.85%", penwidth=4.0];
+   -> 000 [label="90.20%", penwidth=10.0];
+   -> 110 [label="0.98%", penwidth=1.0];
+   -> 101 [label="8.82%", penwidth=1.0];
+   -> 000 [label="92.06%", penwidth=10.0];
+   -> 110 [label="4.76%", penwidth=1.0];
+   -> 011 [label="3.17%", penwidth=1.0];
+   -> 000 [label="85.33%", penwidth=9.0];
+   -> 011 [label="1.63%", penwidth=1.0];
+   -> 101 [label="13.04%", penwidth=2.0];
+   -> 100 [label="40.00%", penwidth=4.0];
+   -> 010 [label="40.00%", penwidth=4.0];
+   -> 111 [label="20.00%", penwidth=2.0];
+   -> 010 [label="33.33%", penwidth=4.0];
+   -> 001 [label="66.67%", penwidth=7.0];
+   -> 100 [label="40.48%", penwidth=5.0];
+   -> 001 [label="59.52%", penwidth=6.0];
+   -> 011 [label="100.00%", penwidth=10.0];
+}
